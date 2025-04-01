@@ -9,8 +9,9 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
+        VStack(spacing: 10) {
+            Image(systemName: "heart.fill")
+                .font(.largeTitle)
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
