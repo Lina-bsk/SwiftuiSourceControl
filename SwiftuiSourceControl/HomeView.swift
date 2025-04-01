@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    @State private var title = "Title"
+    
     var body: some View {
         ZStack {
             Text("Screen 2!")
@@ -16,9 +19,11 @@ struct HomeView: View {
             VStack {
                 Text("Screen 3!")
                 
-                Button("new button") {
+                Button("New button") {
                     
                 }
+                Ellipse()
+                    .frame(height: 20)
             }
         }
     }
