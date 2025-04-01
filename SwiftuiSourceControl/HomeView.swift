@@ -15,6 +15,10 @@ struct HomeView: View {
             
             VStack {
                 Text("Screen 2!")
+                
+                Button("new button") {
+                    
+                }
             }
         }
     }
