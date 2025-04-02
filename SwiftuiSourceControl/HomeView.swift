@@ -25,6 +25,7 @@ struct HomeView: View {
                 Ellipse()
                     .frame(height: 20)
             }
+            Text("hi")
         }
     }
 }
