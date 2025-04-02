@@ -17,7 +17,7 @@ struct ContentView: View {
             Text("Hello world!")
             Text("Hello world!")
             Text("Text in a new branch!")
-            Button("Subscribe now") {
+            Button("Subscribe on this page") {
                 
             }
             
