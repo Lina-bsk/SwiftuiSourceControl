@@ -14,7 +14,7 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello world!")
+            Text("Hello world")
             Text("Hello world!")
             Text("Text in a new branch!")
             Button("Subscribe on this page") {
