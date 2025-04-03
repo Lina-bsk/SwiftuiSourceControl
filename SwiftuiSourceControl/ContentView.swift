@@ -9,12 +9,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(spacing: 20) {
+        VStack(spacing: 10) {
             ScrollView {
-                ForEach(0..<7) { i in
+                ForEach(0..<5) { i in
                     Text("\(i + 1) number of houses")
                         .padding()
                     Image(systemName: "house.fill")
+                        .foregroundStyle(Color.indigo)
                 }
             }
         }
