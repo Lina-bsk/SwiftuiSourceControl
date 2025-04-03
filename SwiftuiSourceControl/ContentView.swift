@@ -12,10 +12,14 @@ struct ContentView: View {
         VStack(spacing: 10) {
             ScrollView {
                 ForEach(0..<5) { i in
-                    Text("\(i + 1) number of houses")
+                    Text("\(i + 1) number of houses!")
                         .padding()
                     Image(systemName: "house.fill")
                         .foregroundStyle(Color.indigo)
+                    
+                    Button("button") {
+                        
+                    }
                 }
             }
         }
