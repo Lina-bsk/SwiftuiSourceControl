@@ -16,7 +16,7 @@ struct HomeView: View {
             Color.yellow
                 .edgesIgnoringSafeArea(.all)
             VStack {
-                VStack(spacing: 20) {
+                VStack(spacing: 10) {
                     Text(title)
                     
                     Button("New") {
@@ -25,7 +25,7 @@ struct HomeView: View {
                         .frame(width:50, height: 30)
                 }
                 VStack {
-                    Text("hi")
+                    Text("Some information")
                 }
             }
         }
