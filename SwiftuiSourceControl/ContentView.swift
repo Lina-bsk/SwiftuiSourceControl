@@ -16,6 +16,10 @@ struct ContentView: View {
                         .padding()
                     Image(systemName: "house.fill")
                         .foregroundStyle(Color.indigo)
+                    
+                    Button("button") {
+                        
+                    }
                 }
             }
         }
