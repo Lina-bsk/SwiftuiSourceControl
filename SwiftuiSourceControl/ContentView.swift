@@ -9,14 +9,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(spacing: 10) {
+        VStack(spacing: 20) {
             ScrollView {
-                ForEach(0..<20) { i in
+                ForEach(0..<7) { i in
                     Text("\(i + 1) item")
+                        .padding()
+                    Image(systemName: "house.fill")
                 }
             }
-            Image(systemName: "house.fill")
-                .resizable()
         }
         .padding()
     }
