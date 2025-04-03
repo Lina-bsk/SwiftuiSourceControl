@@ -12,7 +12,7 @@ struct ContentView: View {
         VStack(spacing: 5) {
             ScrollView {
                 ForEach(0..<5) { i in
-                    Text("\(i + 1) number of houses!")
+                    Text("\(i + 1) numbers of houses!")
                         .padding()
                     Image(systemName: "house.fill")
                         .foregroundStyle(Color.indigo)
