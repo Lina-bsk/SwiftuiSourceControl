@@ -19,7 +19,7 @@ struct HomeView: View {
                 VStack(spacing: 20) {
                     Text("Screen 3!")
                     
-                    Button("New button") {
+                    Button("New") {
                     }
                     Ellipse()
                         .frame(width:50, height: 30)
