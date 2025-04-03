@@ -15,7 +15,7 @@ struct ContentView: View {
                     Text("\(i + 1) number of houses")
                         .padding()
                     Image(systemName: "house.fill")
-                        .foregroundStyle(Color.green)
+                        .foregroundStyle(Color.indigo)
                 }
             }
         }
