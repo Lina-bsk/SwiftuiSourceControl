@@ -17,7 +17,7 @@ struct HomeView: View {
                 .edgesIgnoringSafeArea(.all)
             VStack {
                 VStack(spacing: 20) {
-                    Text("Screen 3!")
+                    Text("Screen 2!")
                     
                     Button("New") {
                     }
