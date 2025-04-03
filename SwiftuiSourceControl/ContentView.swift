@@ -16,6 +16,7 @@ struct ContentView: View {
                 }
             }
             Image(systemName: "house.fill")
+                .resizable()
         }
         .padding()
     }
