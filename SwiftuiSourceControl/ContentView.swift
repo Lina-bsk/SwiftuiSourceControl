@@ -17,7 +17,7 @@ struct ContentView: View {
                     Image(systemName: "house.fill")
                         .foregroundStyle(Color.indigo)
                     
-                    Button("button") {
+                    Button("Press") {
                         
                     }
                 }
