@@ -13,19 +13,21 @@ struct HomeView: View {
     
     var body: some View {
         ZStack {
-            Text("Screen 1!")
-            Text("Screen 2!")
-            
+            Color.yellow
+                .edgesIgnoringSafeArea(.all)
             VStack {
-                Text("Screen 3!")
-                
-                Button("New button") {
+                VStack(spacing: 20) {
+                    Text("Screen 3!")
                     
+                    Button("New button") {
+                    }
+                    Ellipse()
+                        .frame(width:50, height: 30)
                 }
-                Ellipse()
-                    .frame(height: 20)
+                VStack {
+                    Text("hi")
+                }
             }
-            Text("hi")
         }
     }
 }
