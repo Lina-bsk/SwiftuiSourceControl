@@ -15,7 +15,7 @@ struct ContentView: View {
                     Text("\(i + 1) item")
                 }
             }
-            
+            Image(systemName: "house.fill")
         }
         .padding()
     }
