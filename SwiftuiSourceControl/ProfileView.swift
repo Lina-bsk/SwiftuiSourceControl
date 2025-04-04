@@ -11,7 +11,7 @@ struct ProfileView: View {
     var body: some View {
         Text("Your profile")
             .padding()
-        Image(systemName: "star.fill")
+        Image(systemName: "photo.fill")
         
         Button("your photo") {
             
