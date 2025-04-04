@@ -16,6 +16,8 @@ struct ProfileView: View {
         Button("your photo") {
             
         }
+        
+        Text("Your profile")
     }
 }
 
