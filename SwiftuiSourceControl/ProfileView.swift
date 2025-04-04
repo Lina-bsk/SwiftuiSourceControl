@@ -12,6 +12,10 @@ struct ProfileView: View {
         Text("Your profile")
             .padding()
         Image(systemName: "star.fill")
+        
+        Button("your photo") {
+            
+        }
     }
 }
 
