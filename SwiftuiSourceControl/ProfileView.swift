@@ -17,7 +17,7 @@ struct ProfileView: View {
             
         }
         
-        Text("Your profile")
+        Text("Your photo")
     }
 }
 
