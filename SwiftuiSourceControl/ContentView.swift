@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(spacing: 5) {
+        VStack(spacing: 3) {
             ScrollView {
                 ForEach(0..<4) { i in
                     Text("\(i) numbers of houses!")
