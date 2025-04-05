@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack(spacing: 5) {
             ScrollView {
-                ForEach(0..<5) { i in
+                ForEach(0..<4) { i in
                     Text("\(i) numbers of houses!")
                         .padding()
                     Image(systemName: "house.fill")
