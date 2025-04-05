@@ -13,7 +13,7 @@ struct ProfileView: View {
             .padding()
         Image(systemName: "photo.fill")
         
-        Button("your photo") {
+        Button("Your photo") {
             
         }
         
